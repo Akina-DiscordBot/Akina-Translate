@@ -11,7 +11,7 @@ module.exports ={
 
         },
         TraductionManage:{
-            notFound: (term) => `Missing translation: \`${term}\``
+            notFound: (term,lang) => `Missing translation: \`${term}\` in ${lang}`
         },
         addReaction:{
             ficheName : (name) => "File of " + name,

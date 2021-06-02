@@ -10,7 +10,7 @@ module.exports ={
             error: 'Une erreur s\'est produite mais le personnel a été informé de cet incident.'
         },
         TraductionManage:{
-            notFound: (term) => `Traduction manquante: \`${term}\``
+            notFound: (term,lang) => `Traduction manquante: \`${term}\`  in ${lang}`
         },
 
         addReaction:{
