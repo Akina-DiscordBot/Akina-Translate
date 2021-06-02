@@ -50,7 +50,6 @@ module.exports ={
                 missingName:"Le nom est introuvable",
                 prefixExist:'Un personnage possède deja ce prefix',
                 nameExist:'Un personnage possède deja ce nom',
-
                 embed:{
                     title: (name) => "The character " + name + " wishes to be created",
                     description: (prefix) =>`**Prefix:** ${prefix.toString()}\nYou can now do\`\`\`${prefix.toString()}Hello\`\`\``,
