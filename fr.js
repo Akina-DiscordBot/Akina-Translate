@@ -12,6 +12,7 @@ module.exports = {
             cdwOn: (remain) =>
               `Vous êtes en période de récupération, essayez dans ${remain}s`,
             error: "Une erreur s'est produite mais le personnel a été informé de cet incident.",
+            botNotInitialized:"Le bot n'est pas encore initialisé"
         },
         TraductionManage: {
             notFound: (term) =>
